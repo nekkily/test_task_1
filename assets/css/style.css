@@ -1,0 +1,161 @@
+body {
+	width: 100%;
+	font-family: 'Roboto', sans-serif;
+	background-color: #eeeeee;
+}
+
+hr {
+	margin-left: 200px;
+	width: 75%;
+}
+	
+textarea {
+	overflow-x:hidden;
+	resize: none;
+	background-color: #eeeeee;
+	border-radius: 5px;
+	border: 2px solid #000;
+}
+
+input {
+	border-radius: 5px;
+	padding: 20px;
+}
+
+.date {
+	font-size: 11px;
+	margin-left: 20px;
+}
+
+.subm {
+	text-align: right;
+	display: block;
+	border-radius: 5px;
+}
+
+.inp {
+	width: 100%;
+}
+
+.text {
+		height: 50px;
+		background-color: #f9f9f9;
+		outline: none;
+		border: none;
+	}
+
+.but {
+	border: 2px solid #000;
+	padding: 7px;
+}
+
+.inl {
+	display: inline-block;
+}
+
+.footer-text {
+	font-size: 12px;
+}
+
+.info {
+	font-weight:bold;
+}
+
+.foot-img {
+	width: 130px;
+}
+
+.raw {
+	border-bottom: 5px solid transparent;
+	background-image:
+			linear-gradient(gray, #f9f9f9),
+			linear-gradient(to bottom right, transparent 50.5%, #f9f9f9 50.5%),
+			linear-gradient(to bottom left, transparent 50.5%, #f9f9f9 50.5%),
+			linear-gradient(to top right, transparent 50.5%, #f9f9f9 50.5%),
+			linear-gradient(to top left, transparent 50.5%, #f9f9f9 50.5%);
+	background-repeat: repeat, repeat-x, repeat-x, repeat-x, repeat-x;
+	background-position: 0 0, 10px 0, 10px 0, 10px 100%, 10px 100%;
+	background-size: auto auto, 10px 10px, 10px 10px, 10px 10px, 10px 10px;
+	background-clip: padding-box, border-box, border-box, border-box, border-box;
+	background-origin: padding-box, border-box, border-box, border-box, border-box;
+}
+	
+@media screen and (min-width: 1000px){     
+	footer {
+		height: 230px;
+		background-color: #f9f9f9;
+	}
+
+	.top {
+		height: 230px;
+		background-color: #f9f9f9;
+	}
+
+	.container {
+		max-width: 100%;
+		text-align: left;
+	}
+
+	.content {
+		padding-left: 200px;
+	}
+
+	.logo {
+		text-align: center;
+	}
+
+	.name {
+		font-weight:bold;
+		width: 300px;
+	}
+
+	.comments {
+		width: 75%;
+		overflow-x:hidden;
+	}
+
+	
+}
+
+@media screen and (max-width: 999px){     
+	footer {
+		max-height: 500px;
+		background-color: #f9f9f9;
+	}
+
+	.top {
+		max-height: 400px;
+		background-color: #f9f9f9;
+	}
+
+	.container {
+		text-align: left;
+	}
+
+
+	.logo {
+		text-align: center;
+		height: 10px;
+	}
+	
+	.logo-img {
+		height: 150px;
+		margin-top: 20px;
+	}
+
+	.name {
+		font-weight:bold;
+		width: 50%;
+	}
+
+	.date {
+		font-size: 11px;
+		margin-left: 20px;
+	}
+
+	.comments {
+		width: 75%;
+		overflow-x:hidden;
+		margin-left: 30px;
+	}
+}
